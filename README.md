@@ -40,3 +40,11 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+## How to deploy
+
+```bash
+cd cdk
+yarn install
+yarn cdk deploy --all
+```
